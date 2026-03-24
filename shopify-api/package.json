@@ -1,0 +1,16 @@
+{
+  "name": "gradi-shopify-api-2026",
+  "version": "1.0.0",
+  "description": "Shopify API 2026 setup para Gradi Handmade",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^11.0.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cookie-parser": "^1.4.6"
+  }
+}
