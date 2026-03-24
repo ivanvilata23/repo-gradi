@@ -1,0 +1,9 @@
+# Variables de entorno (NUNCA subir al repositorio)
+shopify-api/.env
+.env
+*.env
+
+# Node
+shopify-api/node_modules/
+node_modules/
+npm-debug.log*
