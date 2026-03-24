@@ -9,22 +9,23 @@
  */
 
 require('dotenv').config();
+require('@shopify/shopify-api/adapters/node'); // adaptador requerido para Node.js
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const { shopifyApi, ApiVersion, Session } = require('@shopify/shopify-api');
-const { restResources } = require('@shopify/shopify-api/rest/admin/2026-01');
+const { restResources } = require('@shopify/shopify-api/rest/admin/2025-07');
 
 const app = express();
 app.use(cookieParser());
 app.use(express.json());
 
-// ── Inicializar Shopify API 2026-01 ──────────────────────────────────────────
+// ── Inicializar Shopify API (última versión disponible: 2025-07) ─────────────
 const shopify = shopifyApi({
   apiKey: process.env.SHOPIFY_API_KEY,
   apiSecretKey: process.env.SHOPIFY_API_SECRET,
   scopes: process.env.SHOPIFY_SCOPES.split(','),
   hostName: process.env.SHOPIFY_APP_URL.replace(/https?:\/\//, ''),
-  apiVersion: ApiVersion.January26,   // 2026-01
+  apiVersion: ApiVersion.July25,   // 2025-07 (más reciente disponible)
   isEmbeddedApp: false,
   restResources,
 });
