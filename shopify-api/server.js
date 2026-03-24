@@ -1,130 +1,72 @@
 /**
- * Shopify API 2026 - Setup para Gradi Handmade
+ * Shopify API - Gradi Handmade
+ * Conexión directa con Admin API Token (sin OAuth, sin servidor público)
  *
- * Flujo OAuth:
- * 1. Registra tu app en Shopify Partners → obtienes CLIENT_ID y CLIENT_SECRET
- * 2. Copia .env.example → .env y llena las variables
- * 3. Ejecuta: npm install && npm start
- * 4. Ve a: http://localhost:3000/auth?shop=tu-tienda.myshopify.com
+ * SETUP:
+ * 1. Ve a tu Admin de Shopify → Configuración → Apps y canales de venta
+ * 2. Clic en "Desarrollar apps" → Crear una app
+ * 3. En "Configuración de API de Admin" → elige los permisos que necesitas
+ * 4. Clic en "Instalar app" → copia el "Token de API de Admin"
+ * 5. Pega ese token en el .env como SHOPIFY_ADMIN_TOKEN
+ * 6. Ejecuta: node server.js
  */
 
 require('dotenv').config();
-require('@shopify/shopify-api/adapters/node'); // adaptador requerido para Node.js
-const express = require('express');
-const cookieParser = require('cookie-parser');
-const { shopifyApi, ApiVersion, Session } = require('@shopify/shopify-api');
-const { restResources } = require('@shopify/shopify-api/rest/admin/2025-07');
 
-const app = express();
-app.use(cookieParser());
-app.use(express.json());
+const SHOP    = process.env.SHOPIFY_SHOP;        // ej: gradi-handmade.myshopify.com
+const TOKEN   = process.env.SHOPIFY_ADMIN_TOKEN; // Admin API access token
+const VERSION = '2025-07';
 
-// ── Inicializar Shopify API (última versión disponible: 2025-07) ─────────────
-const shopify = shopifyApi({
-  apiKey: process.env.SHOPIFY_API_KEY,
-  apiSecretKey: process.env.SHOPIFY_API_SECRET,
-  scopes: process.env.SHOPIFY_SCOPES.split(','),
-  hostName: process.env.SHOPIFY_APP_URL.replace(/https?:\/\//, ''),
-  apiVersion: ApiVersion.July25,   // 2025-07 (más reciente disponible)
-  isEmbeddedApp: false,
-  restResources,
-});
+const BASE_URL = `https://${SHOP}/admin/api/${VERSION}`;
 
-// ── PASO 1: Iniciar OAuth ────────────────────────────────────────────────────
-// Ruta: GET /auth?shop=tu-tienda.myshopify.com
-app.get('/auth', async (req, res) => {
-  const shop = req.query.shop;
-  if (!shop) {
-    return res.status(400).send('Falta el parámetro ?shop=tu-tienda.myshopify.com');
+const headers = {
+  'X-Shopify-Access-Token': TOKEN,
+  'Content-Type': 'application/json',
+};
+
+// ── Función principal: llama a la API ────────────────────────────────────────
+async function shopifyAPI(method, endpoint, body = null) {
+  const options = { method, headers };
+  if (body) options.body = JSON.stringify(body);
+
+  const res = await fetch(`${BASE_URL}/${endpoint}`, options);
+  if (!res.ok) {
+    const err = await res.text();
+    throw new Error(`Shopify API error ${res.status}: ${err}`);
   }
-
-  await shopify.auth.begin({
-    shop: shopify.utils.sanitizeShop(shop, true),
-    callbackPath: '/auth/callback',
-    isOnline: false,
-    rawRequest: req,
-    rawResponse: res,
-  });
-});
-
-// ── PASO 2: Callback OAuth ───────────────────────────────────────────────────
-// Shopify redirige aquí con el código de autorización
-app.get('/auth/callback', async (req, res) => {
-  try {
-    const callback = await shopify.auth.callback({
-      rawRequest: req,
-      rawResponse: res,
-    });
-
-    const session = callback.session;
-
-    // Guarda el access token (en producción usa una DB)
-    console.log('✅ Autenticación exitosa');
-    console.log('   Shop:', session.shop);
-    console.log('   Access Token:', session.accessToken);
-    console.log('   Scopes:', session.scope);
-
-    // Redirige a la app o muestra el token
-    res.redirect(`/dashboard?shop=${session.shop}`);
-  } catch (error) {
-    console.error('❌ Error en callback OAuth:', error.message);
-    res.status(500).send(`Error de autenticación: ${error.message}`);
-  }
-});
-
-// ── PASO 3: Ejemplo de uso de la API 2026 ───────────────────────────────────
-// Ruta de ejemplo: GET /dashboard?shop=tu-tienda.myshopify.com
-app.get('/dashboard', async (req, res) => {
-  const shop = req.query.shop;
-
-  // En producción: recupera la sesión de tu DB
-  // Aquí usamos una sesión de ejemplo para mostrar el uso de la API
-  res.json({
-    mensaje: 'App conectada correctamente',
-    shop: shop,
-    api_version: '2026-01',
-    instrucciones: 'Usa el access_token para llamar a la REST o GraphQL API',
-    ejemplos: {
-      rest_productos: `GET https://${shop}/admin/api/2026-01/products.json`,
-      graphql: `POST https://${shop}/admin/api/2026-01/graphql.json`,
-    }
-  });
-});
-
-// ── Ejemplo: llamar a la API con el access token ─────────────────────────────
-// Función reutilizable para cualquier endpoint
-async function llamarShopifyAPI(shop, accessToken, endpoint) {
-  const client = new shopify.clients.Rest({ session: new Session({
-    id: `${shop}_offline`,
-    shop,
-    state: '',
-    isOnline: false,
-    accessToken,
-    scope: process.env.SHOPIFY_SCOPES,
-  })});
-
-  return await client.get({ path: endpoint });
+  return res.json();
 }
 
-// Ruta de ejemplo para obtener productos
-app.get('/api/productos', async (req, res) => {
-  const { shop, token } = req.query;
-  if (!shop || !token) {
-    return res.status(400).json({ error: 'Faltan parámetros: shop y token' });
-  }
+// ── Ejemplos de uso ──────────────────────────────────────────────────────────
+async function main() {
+  console.log(`\n🛍️  Shopify API - Gradi Handmade`);
+  console.log(`   Tienda : ${SHOP}`);
+  console.log(`   Version: ${VERSION}\n`);
 
   try {
-    const response = await llamarShopifyAPI(shop, token, 'products');
-    res.json(response.body);
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-});
+    // 1. Obtener info de la tienda
+    const { shop } = await shopifyAPI('GET', 'shop.json');
+    console.log('✅ Tienda conectada:', shop.name);
+    console.log('   Email:', shop.email);
+    console.log('   Moneda:', shop.currency);
+    console.log('   Plan:', shop.plan_name);
 
-// ── Servidor ─────────────────────────────────────────────────────────────────
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`\n🚀 Shopify API 2026 - Gradi Handmade`);
-  console.log(`   Servidor: http://localhost:${PORT}`);
-  console.log(`   Inicia OAuth: http://localhost:${PORT}/auth?shop=TU-TIENDA.myshopify.com\n`);
-});
+    // 2. Listar productos
+    const { products } = await shopifyAPI('GET', 'products.json?limit=5');
+    console.log(`\n📦 Productos (primeros 5):`);
+    products.forEach(p => console.log(`   - ${p.title} | ${p.status} | $${p.variants[0]?.price}`));
+
+    // 3. Listar órdenes recientes
+    const { orders } = await shopifyAPI('GET', 'orders.json?limit=5&status=any');
+    console.log(`\n📋 Órdenes recientes:`);
+    orders.forEach(o => console.log(`   - #${o.order_number} | ${o.financial_status} | $${o.total_price}`));
+
+    console.log('\n✅ Conexión exitosa. La API funciona correctamente.\n');
+
+  } catch (err) {
+    console.error('\n❌ Error:', err.message);
+    console.error('   Verifica que SHOPIFY_SHOP y SHOPIFY_ADMIN_TOKEN estén correctos en el .env\n');
+  }
+}
+
+main();
