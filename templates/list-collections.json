@@ -8,6 +8,23 @@
  * ------------------------------------------------------------
  */{
   "sections": {
+    "test_giraffe_image": {
+      "type": "image-banner",
+      "name": "Prueba jirafa",
+      "settings": {
+        "image": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?q=80&w=1600&auto=format&fit=crop",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      },
+      "blocks": {}
+    },
     "collection_list_Wfgh3m": {
       "type": "main-collection-list",
       "blocks": {
@@ -169,6 +186,7 @@
     }
   },
   "order": [
+    "test_giraffe_image",
     "collection_list_Wfgh3m"
   ]
 }
