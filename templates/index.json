@@ -14,8 +14,8 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
+        "image_1": "shopify://shop_images/ChatGPT_Image_26_abr_2026_08_31_27.png",
         "media_type_2": "image",
-        "image_2": "shopify://shop_images/ChatGPT_Image_7_mar_2026_06_00_00.png",
         "stack_media_on_mobile": false,
         "custom_mobile_media": false,
         "media_type_1_mobile": "image",
