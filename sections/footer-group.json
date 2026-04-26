@@ -11,6 +11,74 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "footer_main_gradi": {
+      "type": "footer",
+      "name": "Footer principal",
+      "blocks": {
+        "footer_brand": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Gradi Handmade</strong></p><p>Pendientes artesanales de arcilla polimérica, hechos a mano en Villarreal. Cada pieza es única, creada con cuidado y mimo.</p>",
+            "width": "fill",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "footer_nav": {
+          "type": "menu",
+          "settings": {
+            "menu": "main-menu",
+            "heading": "Tienda",
+            "menu_spacing": 10,
+            "show_as_accordion": false
+          },
+          "blocks": {}
+        },
+        "footer_social": {
+          "type": "social-links",
+          "settings": {
+            "facebook_url": "https://www.facebook.com/profile.php?id=61582359327208",
+            "instagram_url": "https://www.instagram.com/gradihandmade/",
+            "youtube_url": "",
+            "tiktok_url": "https://www.tiktok.com/@gradihandmade",
+            "twitter_url": "",
+            "threads_url": "",
+            "linkedin_url": "",
+            "bluesky_url": "",
+            "snapchat_url": "",
+            "pinterest_url": "",
+            "tumblr_url": "",
+            "vimeo_url": "",
+            "custom_url": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["footer_brand", "footer_nav", "footer_social"],
+      "settings": {
+        "section_width": "page-width",
+        "gap": 40,
+        "color_scheme": "scheme-3",
+        "padding-block-start": 56,
+        "padding-block-end": 40
+      }
+    },
     "footer_utilities_jLGE8U": {
       "type": "footer-utilities",
       "blocks": {
@@ -68,6 +136,7 @@
     }
   },
   "order": [
+    "footer_main_gradi",
     "footer_utilities_jLGE8U"
   ]
 }

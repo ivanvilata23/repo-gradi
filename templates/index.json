@@ -362,6 +362,165 @@
         "padding-inline-end": 20
       }
     },
+    "marquee_gradi": {
+      "type": "marquee",
+      "name": "Marquee valores",
+      "blocks": {
+        "mq_text_1": {
+          "type": "text",
+          "settings": {
+            "text": "Hechos a mano",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "var(--font-size--h3)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "mq_div_1": {
+          "type": "_divider",
+          "settings": {},
+          "blocks": {}
+        },
+        "mq_text_2": {
+          "type": "text",
+          "settings": {
+            "text": "Diseños únicos",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "var(--font-size--h3)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "mq_div_2": {
+          "type": "_divider",
+          "settings": {},
+          "blocks": {}
+        },
+        "mq_text_3": {
+          "type": "text",
+          "settings": {
+            "text": "Arcilla polimérica",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "var(--font-size--h3)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "mq_div_3": {
+          "type": "_divider",
+          "settings": {},
+          "blocks": {}
+        },
+        "mq_text_4": {
+          "type": "text",
+          "settings": {
+            "text": "Pequeñas colecciones",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "var(--font-size--h3)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "mq_div_4": {
+          "type": "_divider",
+          "settings": {},
+          "blocks": {}
+        },
+        "mq_text_5": {
+          "type": "text",
+          "settings": {
+            "text": "Ligeros y cómodos",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "var(--font-size--h3)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["mq_text_1", "mq_div_1", "mq_text_2", "mq_div_2", "mq_text_3", "mq_div_3", "mq_text_4", "mq_div_4", "mq_text_5"],
+      "settings": {
+        "movement_direction": "reverse",
+        "color_scheme": "scheme-3",
+        "padding-block-start": 20,
+        "padding-block-end": 20,
+        "gap_between_elements": 40
+      }
+    },
     "media_with_content_Ni9EjM": {
       "type": "media-with-content",
       "blocks": {
@@ -609,6 +768,7 @@
   "order": [
     "hero_jVaWmY",
     "intro_gradi_phase1",
+    "marquee_gradi",
     "media_with_content_Ni9EjM",
     "benefits_gradi_phase1",
     "collection_placeholder_gradi",
