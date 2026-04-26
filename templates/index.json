@@ -44,6 +44,231 @@
         "padding-block-end": 0
       }
     },
+    "intro_gradi_handmade": {
+      "type": "group",
+      "blocks": {
+        "intro_heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Pendientes de arcilla polimérica hechos a mano</h1>",
+            "width": "fill",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h1",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "intro_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diseños únicos, ligeros y creados con mimo en pequeñas colecciones. Cada pieza se modela, hornea, lija y monta una a una.</p>",
+            "width": "fill",
+            "max_width": "narrow",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "intro_button": {
+          "type": "button",
+          "settings": {
+            "label": "Ver colección",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["intro_heading", "intro_text", "intro_button"],
+      "name": "Mensaje principal",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "width": "fill",
+        "custom_width": 100,
+        "width_mobile": "fill",
+        "custom_width_mobile": 100,
+        "height": "fit",
+        "custom_height": 100,
+        "inherit_color_scheme": false,
+        "color_scheme": "scheme-6",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "link": "",
+        "open_in_new_tab": false,
+        "placeholder": "",
+        "padding-block-start": 48,
+        "padding-block-end": 32,
+        "padding-inline-start": 20,
+        "padding-inline-end": 20
+      }
+    },
+    "benefits_gradi": {
+      "type": "group",
+      "blocks": {
+        "benefit_one": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Hechos a mano</h3><p>Cada pieza se crea una a una, con cuidado y detalle.</p>",
+            "width": "fill",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "benefit_two": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Ligeros y cómodos</h3><p>Diseñados para dar un toque especial sin renunciar a la comodidad.</p>",
+            "width": "fill",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "benefit_three": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Piezas únicas</h3><p>Pequeñas colecciones con acabados especiales e irrepetibles.</p>",
+            "width": "fill",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["benefit_one", "benefit_two", "benefit_three"],
+      "name": "Beneficios Gradi",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "width": "fill",
+        "custom_width": 100,
+        "width_mobile": "fill",
+        "custom_width_mobile": 100,
+        "height": "fit",
+        "custom_height": 100,
+        "inherit_color_scheme": false,
+        "color_scheme": "scheme-6",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "link": "",
+        "open_in_new_tab": false,
+        "placeholder": "",
+        "padding-block-start": 20,
+        "padding-block-end": 48,
+        "padding-inline-start": 24,
+        "padding-inline-end": 24
+      }
+    },
     "media_with_content_Ni9EjM": {
       "type": "media-with-content",
       "blocks": {
@@ -139,7 +364,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>Gradi Handmade nace en Villarreal como una marca de pendientes de arcilla polimérica hechos a mano, pensados para mujeres que buscan piezas diferentes, ligeras y con personalidad.</p><p>Cada pendiente se modela, hornea, lija y monta con cuidado. Por eso no hay dos piezas exactamente iguales: cada par tiene pequeños detalles que lo hacen especial.</p><p><strong>Pequeñas colecciones, diseños únicos y acabados cuidados</strong> para convertir cada pendiente en una pieza artesanal exclusiva, bonita y fácil de llevar.</p><p>Más que pendientes, son pequeños detalles hechos con mimo para acompañarte en momentos bonitos o para regalar algo especial.</p>",
+                    "text": "<p>Gradi Handmade nace en Villarreal como una marca de pendientes de arcilla polimérica hechos a mano.</p><p>Cada colección se crea en pequeñas cantidades, cuidando los colores, las formas y los acabados para que cada pieza tenga personalidad propia.</p><p>No buscamos hacer pendientes en serie. Buscamos crear piezas ligeras, especiales y fáciles de llevar, pensadas para mujeres que quieren algo diferente.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -162,9 +387,7 @@
                   "blocks": {}
                 }
               },
-              "block_order": [
-                "text_G9YM3F"
-              ]
+              "block_order": ["text_G9YM3F"]
             },
             "button_HNc4Qy": {
               "type": "button",
@@ -181,11 +404,7 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "text_UYiD7x",
-            "group_F7ikYf",
-            "button_HNc4Qy"
-          ]
+          "block_order": ["text_UYiD7x", "group_F7ikYf", "button_HNc4Qy"]
         }
       },
       "name": "t:names.editorial",
@@ -199,10 +418,200 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "process_gradi": {
+      "type": "group",
+      "blocks": {
+        "process_heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>El proceso detrás de cada pieza</h2>",
+            "width": "fill",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "process_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diseño, modelado, horneado, lijado y montaje. Cada pendiente pasa por varias fases artesanales hasta convertirse en una pieza lista para llevar o regalar.</p>",
+            "width": "fill",
+            "max_width": "narrow",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["process_heading", "process_text"],
+      "name": "Proceso artesanal",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "width": "fill",
+        "custom_width": 100,
+        "width_mobile": "fill",
+        "custom_width_mobile": 100,
+        "height": "fit",
+        "custom_height": 100,
+        "inherit_color_scheme": false,
+        "color_scheme": "scheme-6",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "link": "",
+        "open_in_new_tab": false,
+        "placeholder": "",
+        "padding-block-start": 48,
+        "padding-block-end": 48,
+        "padding-inline-start": 20,
+        "padding-inline-end": 20
+      }
+    },
+    "gift_care_gradi": {
+      "type": "group",
+      "blocks": {
+        "gift_text": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Preparados con mimo, listos para regalar</h2><p>Cada pedido se prepara con una presentación cuidada, tarjeta kraft y detalles pensados para que recibirlo también sea parte de la experiencia.</p>",
+            "width": "fill",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "care_text": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Cómo cuidar tus Gradi</h2><p>Evita mojarlos, guárdalos separados y límpialos suavemente. La arcilla polimérica es ligera y resistente, pero cada pieza artesanal merece cuidado.</p>",
+            "width": "fill",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["gift_text", "care_text"],
+      "name": "Regalo y cuidados",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "width": "fill",
+        "custom_width": 100,
+        "width_mobile": "fill",
+        "custom_width_mobile": 100,
+        "height": "fit",
+        "custom_height": 100,
+        "inherit_color_scheme": false,
+        "color_scheme": "scheme-3",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "link": "",
+        "open_in_new_tab": false,
+        "placeholder": "",
+        "padding-block-start": 48,
+        "padding-block-end": 48,
+        "padding-inline-start": 24,
+        "padding-inline-end": 24
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
-    "media_with_content_Ni9EjM"
+    "intro_gradi_handmade",
+    "benefits_gradi",
+    "media_with_content_Ni9EjM",
+    "process_gradi",
+    "gift_care_gradi"
   ]
 }
