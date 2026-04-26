@@ -12,77 +12,6 @@
     "hero_jVaWmY": {
       "type": "hero",
       "name": "t:names.hero",
-      "blocks": {
-        "hero_text_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>Pendientes de arcilla polimérica hechos a mano</h1>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h1",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "hero_text_subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Diseños únicos, ligeros y creados con mimo para regalar o para dar un toque especial a tu día.</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "hero_button_collection": {
-          "type": "button",
-          "settings": {
-            "label": "Ver colección",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "hero_text_heading",
-        "hero_text_subtitle",
-        "hero_button_collection"
-      ],
       "settings": {
         "media_type_1": "image",
         "image_1": "shopify://shop_images/ChatGPT_Image_26_abr_2026_08_31_27.png",
@@ -91,28 +20,28 @@
         "custom_mobile_media": false,
         "media_type_1_mobile": "image",
         "media_type_2_mobile": "image",
-        "link": "",
+        "link": "shopify://collections/all",
         "open_in_new_tab": false,
-        "content_direction": "column",
+        "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "center",
         "vertical_alignment": "center",
         "align_baseline": true,
         "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "vertical_alignment_flex_direction_column": "flex-end",
+        "gap": 24,
         "section_width": "page-width",
         "section_height": "auto",
         "section_height_custom": 50,
         "color_scheme": "scheme-6",
         "toggle_overlay": false,
-        "overlay_color": "#ffffff99",
+        "overlay_color": "#12121266",
         "overlay_style": "solid",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
         "reflection_opacity": 75,
-        "padding-block-start": 60,
-        "padding-block-end": 60
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "media_with_content_Ni9EjM": {
