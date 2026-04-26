@@ -51,7 +51,7 @@
         "intro_heading": {
           "type": "text",
           "settings": {
-            "text": "<h1>Pendientes de arcilla polimérica hechos a mano</h1>",
+            "text": "<h1>Pendientes artesanales hechos a mano, uno a uno</h1>",
             "width": "fill",
             "max_width": "normal",
             "alignment": "center",
@@ -98,22 +98,8 @@
           },
           "blocks": {}
         },
-        "intro_button": {
-          "type": "button",
-          "settings": {
-            "label": "Ver colección",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        }
       },
-      "block_order": ["intro_heading", "intro_text", "intro_button"],
+      "block_order": ["intro_heading", "intro_text"],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -276,7 +262,7 @@
         "collection_heading": {
           "type": "text",
           "settings": {
-            "text": "<h2>Nueva colección</h2>",
+            "text": "<h2>Nuestra colección</h2>",
             "width": "fill",
             "max_width": "normal",
             "alignment": "center",
@@ -301,7 +287,7 @@
         "collection_text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pendientes artesanales para dar color, personalidad y un detalle especial a tu día.</p>",
+            "text": "<p>Pendientes de arcilla polimérica en pequeñas tiradas. Cada diseño es diferente, cada pieza es tuya.</p>",
             "width": "fill",
             "max_width": "narrow",
             "alignment": "center",
@@ -326,7 +312,7 @@
         "collection_button": {
           "type": "button",
           "settings": {
-            "label": "Ver todos los pendientes",
+            "label": "Descubre la colección",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",
@@ -623,9 +609,9 @@
   "order": [
     "hero_jVaWmY",
     "intro_gradi_phase1",
+    "media_with_content_Ni9EjM",
     "benefits_gradi_phase1",
     "collection_placeholder_gradi",
-    "media_with_content_Ni9EjM",
     "gift_care_gradi_phase1"
   ]
 }
