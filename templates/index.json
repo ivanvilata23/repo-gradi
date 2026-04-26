@@ -131,8 +131,8 @@
         "link": "",
         "open_in_new_tab": false,
         "placeholder": "",
-        "padding-block-start": 48,
-        "padding-block-end": 28,
+        "padding-block-start": 64,
+        "padding-block-end": 40,
         "padding-inline-start": 20,
         "padding-inline-end": 20
       }
@@ -249,8 +249,8 @@
         "link": "",
         "open_in_new_tab": false,
         "placeholder": "",
-        "padding-block-start": 20,
-        "padding-block-end": 44,
+        "padding-block-start": 32,
+        "padding-block-end": 60,
         "padding-inline-start": 24,
         "padding-inline-end": 24
       }
@@ -356,10 +356,10 @@
         "link": "",
         "open_in_new_tab": false,
         "placeholder": "",
-        "padding-block-start": 52,
-        "padding-block-end": 52,
-        "padding-inline-start": 20,
-        "padding-inline-end": 20
+        "padding-block-start": 72,
+        "padding-block-end": 72,
+        "padding-inline-start": 24,
+        "padding-inline-end": 24
       }
     },
     "marquee_gradi": {
