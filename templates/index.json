@@ -20,7 +20,7 @@
         "custom_mobile_media": false,
         "media_type_1_mobile": "image",
         "media_type_2_mobile": "image",
-        "link": "shopify://collections/summer-collection",
+        "link": "shopify://collections/all",
         "open_in_new_tab": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -139,7 +139,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>Gradi Handmade es el primer emprendimiento de una mujer de 40 años de Villarreal que crea pendientes únicos de arcilla polimérica con pasión y dedicación.</p><p>Cada pieza está hecha a mano y tarda aproximadamente una hora en crearse. Nuestra técnica especial implica hornear lentamente cada pendiente con amor y esmero, garantizando una calidad excepcional en cada detalle.</p><p><strong>Cada pendiente es una creación única</strong> — verdaderamente exclusiva e irrepetible. Nuestros valores fundamentales de exclusividad, calidad, diseño y sostenibilidad guían cada paso de nuestro proceso.</p><p>Cuando eliges Gradi Handmade, recibes una pieza que nadie más en el mundo tendrá. No solo estás comprando joyería; estás adquiriendo una obra de arte personal creada con intención y cuidado.</p>",
+                    "text": "<p>Gradi Handmade nace en Villarreal como una marca de pendientes de arcilla polimérica hechos a mano, pensados para mujeres que buscan piezas diferentes, ligeras y con personalidad.</p><p>Cada pendiente se modela, hornea, lija y monta con cuidado. Por eso no hay dos piezas exactamente iguales: cada par tiene pequeños detalles que lo hacen especial.</p><p><strong>Pequeñas colecciones, diseños únicos y acabados cuidados</strong> para convertir cada pendiente en una pieza artesanal exclusiva, bonita y fácil de llevar.</p><p>Más que pendientes, son pequeños detalles hechos con mimo para acompañarte en momentos bonitos o para regalar algo especial.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -160,42 +160,16 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "text_QJBVip": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Hecho con cuidado y amado incondicionalmente por nuestros clientes, este superventas emblemático supera todas las expectativas.</p>",
-                    "width": "fit-content",
-                    "max_width": "narrow",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_G9YM3F",
-                "text_QJBVip"
+                "text_G9YM3F"
               ]
             },
             "button_HNc4Qy": {
               "type": "button",
               "settings": {
-                "label": "Comprar ahora",
+                "label": "Ver colección",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "link",
