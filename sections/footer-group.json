@@ -13,12 +13,11 @@
   "sections": {
     "footer_main_gradi": {
       "type": "footer",
-      "name": "Footer principal",
       "blocks": {
         "footer_brand": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Gradi Handmade</strong></p><p>Pendientes artesanales de arcilla polimérica, hechos a mano en Villarreal. Cada pieza es única, creada con cuidado y mimo.</p>",
+            "text": "<p><strong>Gradi Handmade</strong></p><p>Pendientes artesanales de arcilla polimérica, hechos a mano en Vila-real. Cada pieza es única, creada con cuidado y mimo.</p>",
             "width": "fill",
             "max_width": "normal",
             "alignment": "left",
@@ -46,7 +45,17 @@
             "menu": "main-menu",
             "heading": "Tienda",
             "menu_spacing": 10,
-            "show_as_accordion": false
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
@@ -70,7 +79,12 @@
           "blocks": {}
         }
       },
-      "block_order": ["footer_brand", "footer_nav", "footer_social"],
+      "block_order": [
+        "footer_brand",
+        "footer_nav",
+        "footer_social"
+      ],
+      "name": "Footer principal",
       "settings": {
         "section_width": "page-width",
         "gap": 40,
