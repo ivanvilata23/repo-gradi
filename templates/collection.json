@@ -43,7 +43,7 @@
           "name": "Description",
           "settings": {
             "text": "{{ closest.collection.description }}",
-            "width": "fit-content",
+            "width": "100%",
             "max_width": "normal",
             "alignment": "left",
             "type_preset": "rte",
