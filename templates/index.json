@@ -9,6 +9,61 @@
  */
 {
   "sections": {
+    "hero_cpWf6d": {
+      "type": "hero",
+      "blocks": {
+        "button_T8iiTf": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Comprar ahora",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "button_T8iiTf"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/ChatGPT_Image_26_abr_2026_08_31_27.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "full-width",
+        "section_height": "full-screen",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "media_with_content_Ni9EjM": {
       "type": "media-with-content",
       "blocks": {
@@ -17,7 +72,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/WhatsApp_Image_2026-04-26_at_08.19.57.jpg",
+            "image": "shopify://shop_images/WhatsApp_Image_2026-04-24_at_20.01.34.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -167,6 +222,7 @@
     }
   },
   "order": [
+    "hero_cpWf6d",
     "media_with_content_Ni9EjM"
   ]
 }
