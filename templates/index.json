@@ -607,7 +607,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Envíos 3,50€ (o gratis en pedidos +40€)",
+                "heading": "¿Cuánto cuesta el envío?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
