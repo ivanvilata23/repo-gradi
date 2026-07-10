@@ -607,7 +607,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "¿Dónde se fabrican tus productos?",
+                "heading": "Envíos desde 3,50€ (o gratis en pedidos +40€)",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
