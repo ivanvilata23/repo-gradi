@@ -607,7 +607,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Envíos desde 3,50€ (o gratis en pedidos +40€)",
+                "heading": "Envíos 3,50€ (o gratis en pedidos +40€)",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -617,7 +617,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Nuestros productos se fabrican tanto localmente como globalmente. Seleccionamos cuidadosamente a nuestros socios de fabricación para garantizar alta calidad y un precio justo.</p>",
+                    "text": "<p>En pedidos superiores a 40 € el envío es gratuito! Sin código, añade tus favoritos y disfruta</p><p>El envío tiene un precio de 3,50€ a domicilio.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
