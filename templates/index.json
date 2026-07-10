@@ -576,7 +576,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Trabajaremos para enviar tu pedido lo antes posible. Cuando se envíe, recibirás un correo electrónico con más información. Los tiempos de entrega varían según tu ubicación.</p>",
+                    "text": "<p>Todos los pernos de mis pendientes están fabricados en acero inoxidable, un material resistente, duradero y conocido por ser una de las opciones más respetuosas con las pieles sensibles.</p><p>Aun así, cada piel puede reaccionar de forma diferente. Si tienes alergia a los metales o cualquier duda, puedes escribirme antes de realizar tu pedido. </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
