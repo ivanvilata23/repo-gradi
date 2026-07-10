@@ -658,7 +658,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>El envío se calcula según tu ubicación y los artículos de tu pedido. Siempre conocerás el precio del envío antes de realizar la compra.</p>",
+                    "text": "<p>El tiempo de preparación  y envío de tu pedido es de entre 1 y 5 días laborables, ya que cada pieza se prepara con mucho mimo en mi taller.</p><p>Si necesitas recibirlo antes de una fecha concreta o tienes prisa por estrenarlo, escríbeme antes de hacer tu pedido y haré todo lo posible por ayudarte.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
