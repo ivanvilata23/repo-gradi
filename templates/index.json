@@ -14,7 +14,7 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/banner_2.png",
+        "image_1": "shopify://shop_images/banner_3.png",
         "media_type_2": "image",
         "stack_media_on_mobile": false,
         "custom_mobile_media": false,
@@ -31,7 +31,7 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 16,
         "section_width": "full-width",
-        "section_height": "custom",
+        "section_height": "auto",
         "section_height_custom": 100,
         "color_scheme": "scheme-1",
         "toggle_overlay": false,
