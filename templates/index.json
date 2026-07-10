@@ -16,7 +16,7 @@
         "media_type_1": "image",
         "image_1": "shopify://shop_images/banner_3.png",
         "media_type_2": "image",
-        "stack_media_on_mobile": false,
+        "stack_media_on_mobile": true,
         "custom_mobile_media": false,
         "media_type_1_mobile": "image",
         "media_type_2_mobile": "image",
@@ -42,6 +42,47 @@
         "reflection_opacity": 75,
         "padding-block-start": 0,
         "padding-block-end": 0
+      }
+    },
+    "marquee_r9ifiE": {
+      "type": "marquee",
+      "blocks": {
+        "text_XWAVQq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>PIEZAS ÚNICAS · HECHAS A MANO · LIGERAS Y CÓMODAS · ENVÍO DESDE ESPAÑA ·</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_XWAVQq"
+      ],
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
       }
     },
     "media_with_content_Ni9EjM": {
@@ -203,6 +244,7 @@
   },
   "order": [
     "hero_cpWf6d",
+    "marquee_r9ifiE",
     "media_with_content_Ni9EjM"
   ]
 }
