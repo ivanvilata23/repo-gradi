@@ -35,12 +35,13 @@
             "corner_styling": "soft",
             "header_text_color": "#000000",
             "text_color": "#000000",
-            "card_color": "#F9F9F9",
+            "card_color": "#f9f9f9",
             "stars_color": "",
             "arrows_color": "#000000",
             "transition_speed": 5,
             "header_text": "Customers are saying",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         },
         "judge_me_reviews_preview_badge_6TUFtj": {
@@ -304,7 +305,7 @@
         "limit_details_width": false,
         "gap": 48,
         "enable_sticky_add_to_cart": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
