@@ -26,10 +26,25 @@
             "case": "uppercase"
           },
           "blocks": {}
+        },
+        "announcement_9BDiNk": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "¡Compra nuestras últimas novedades!",
+            "link": "",
+            "font": "var(--font-subheading--family)",
+            "font_size": "0.75rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "announcement_YTHaL4"
+        "announcement_YTHaL4",
+        "announcement_9BDiNk"
       ],
       "name": "t:names.announcement_bar",
       "settings": {
