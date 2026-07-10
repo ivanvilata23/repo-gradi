@@ -17,7 +17,7 @@
         "announcement_YTHaL4": {
           "type": "_announcement",
           "settings": {
-            "text": "3x2 en piezas únicas: elige 3 y paga 2. Cuando un diseño se vende, no vuelve.",
+            "text": "3x2 en piezas únicas: elige 3 y paga 2",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "1.125rem",
