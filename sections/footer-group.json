@@ -17,7 +17,7 @@
         "footer_brand": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Gradi Handmade</strong></p><p>Pendientes artesanales de arcilla polimérica, hechos a mano en Valencia. Cada pieza es única, creada con cuidado y mimo.</p>",
+            "text": "<p><strong>Gradi Handmade</strong></p><p>Pendientes artesanales de arcilla polimérica, hechos a mano en Vila-real. Cada pieza es única, creada con cuidado y mimo.</p>",
             "width": "fill",
             "max_width": "normal",
             "alignment": "left",
