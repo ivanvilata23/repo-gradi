@@ -30,6 +30,7 @@
         "announcement_9BDiNk": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "¡Compra nuestras últimas novedades!",
             "link": "",
