@@ -328,7 +328,7 @@
           "type": "text",
           "name": "t:names.header",
           "settings": {
-            "text": "<h3>Quiza te guste también</h3>",
+            "text": "<p>Combínalo con estos diseños<br/><br/></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
