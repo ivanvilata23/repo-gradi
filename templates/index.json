@@ -11,6 +11,26 @@
   "sections": {
     "hero_cpWf6d": {
       "type": "hero",
+      "blocks": {
+        "button_QaXxzY": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Comprar ahora",
+            "link": "shopify://collections",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "button_QaXxzY"
+      ],
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
