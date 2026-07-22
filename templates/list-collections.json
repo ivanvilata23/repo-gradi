@@ -89,15 +89,15 @@
           "static": true,
           "settings": {
             "placement": "below_image",
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "center",
             "vertical_alignment": "flex-start",
-            "collection_card_gap": 8,
+            "collection_card_gap": 10,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 0
+            "border_radius": 10
           },
           "blocks": {
             "collection_title_7YgBPU": {
@@ -155,7 +155,7 @@
       "settings": {
         "layout_type": "grid",
         "carousel_on_mobile": false,
-        "columns": 3,
+        "columns": 5,
         "mobile_columns": "2",
         "columns_gap": 12,
         "bento_gap": 8,
