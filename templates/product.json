@@ -237,7 +237,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>🎉 PROMOCIÓN 3x2 ACTIVA</strong><br/><br/>Añade 3 pendientes al carrito y paga solo 2. El de menor precio será gratis.</p>",
+                "text": "<p><strong>🎉 PROMOCIÓN 3x2 ACTIVA</strong><br/><br/>Añade 3 pendientes al carrito y paga solo 2. </p><p>El de menor precio será gratis.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
