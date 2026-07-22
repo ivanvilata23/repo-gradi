@@ -44,10 +44,10 @@
             "max_width": 1100,
             "corner_styling": "soft",
             "header_text_color": "#000000",
-            "text_color": "#3B302A",
-            "card_color": "#FFF9F5",
-            "stars_color": "#B97867",
-            "arrows_color": "#B97867",
+            "text_color": "#3b302a",
+            "card_color": "#fff9f5",
+            "stars_color": "#b97867",
+            "arrows_color": "#b97867",
             "transition_speed": 6,
             "header_text": "Lo que dicen sobre Gradi Handmade",
             "show_average_rating": true,
@@ -233,6 +233,32 @@
               },
               "blocks": {}
             },
+            "text_pykVWc": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><strong>🎉 PROMOCIÓN 3x2 ACTIVA</strong><br/><br/>Añade 3 pendientes al carrito y paga solo 2. El de menor precio será gratis.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
@@ -261,6 +287,7 @@
                 },
                 "accelerated-checkout": {
                   "type": "accelerated-checkout",
+                  "disabled": true,
                   "static": true,
                   "settings": {},
                   "blocks": {}
@@ -299,6 +326,7 @@
             "group_icgrde",
             "divider_VJhene",
             "variant_picker_R3rGDr",
+            "text_pykVWc",
             "buy_buttons_eYQEYi",
             "text_aEtTtq"
           ]
