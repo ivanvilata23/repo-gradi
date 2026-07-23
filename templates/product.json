@@ -63,7 +63,7 @@
           "static": true,
           "settings": {
             "media_presentation": "grid",
-            "media_columns": "one",
+            "media_columns": "two",
             "image_gap": 4,
             "large_first_image": false,
             "icons_style": "none",
@@ -75,7 +75,7 @@
             "aspect_ratio": "1/1.25",
             "constrain_to_viewport": true,
             "media_fit": "contain",
-            "media_radius": 0,
+            "media_radius": 14,
             "extend_media": true,
             "zoom": true,
             "video_loop": false,
