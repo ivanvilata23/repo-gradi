@@ -84,7 +84,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h4>¿En qué puedo ayudarte?</h4><p><br/>Si necesitas ayuda para elegir tus pendientes, tienes alguna duda sobre tu pedido o simplemente quieres preguntarme algo, escríbeme. Estaré encantada de atenderte personalmente.</p>",
+            "text": "<h5>¿En qué puedo ayudarte?</h5>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -110,7 +110,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "",
+            "text": "<p>Si necesitas ayuda para elegir tus pendientes, tienes alguna duda sobre tu pedido o simplemente quieres preguntarme algo, escríbeme. </p><p>Estaré encantada de atenderte personalmente.<br/><br/></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
