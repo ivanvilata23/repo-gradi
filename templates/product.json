@@ -71,7 +71,7 @@
             "aspect_ratio": "1/1.25",
             "constrain_to_viewport": true,
             "media_fit": "contain",
-            "media_radius": 18,
+            "media_radius": 14,
             "extend_media": true,
             "zoom": true,
             "video_loop": false,
