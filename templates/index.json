@@ -80,9 +80,9 @@
       "settings": {
         "movement_direction": "normal",
         "color_scheme": "",
-        "padding-block-start": 24,
-        "padding-block-end": 24,
-        "gap_between_elements": 24
+        "padding-block-start": 15,
+        "padding-block-end": 15,
+        "gap_between_elements": 20
       }
     },
     "media_with_content_Ni9EjM": {
@@ -433,8 +433,8 @@
         "horizontal_alignment": "flex-start",
         "gap": 28,
         "color_scheme": "scheme-1",
-        "padding-block-start": 20,
-        "padding-block-end": 20
+        "padding-block-start": 15,
+        "padding-block-end": 15
       }
     },
     "17839369238bd1d0e0": {
@@ -793,7 +793,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 0,
-        "padding-block-end": 10
+        "padding-block-end": 25
       }
     }
   },
