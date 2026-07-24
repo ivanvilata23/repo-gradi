@@ -97,7 +97,7 @@
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 10
+            "border_radius": 18
           },
           "blocks": {
             "collection_title_7YgBPU": {
@@ -164,10 +164,10 @@
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",
-        "gap": 12,
+        "gap": 0,
         "color_scheme": "scheme-1",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 10,
+        "padding-block-end": 10
       }
     }
   },
