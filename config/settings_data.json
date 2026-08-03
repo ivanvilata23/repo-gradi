@@ -59,6 +59,7 @@
     "cart_type": "drawer",
     "product_title_case": "uppercase",
     "cart_price_font": "heading",
+    "auto_open_cart_drawer": true,
     "show_cart_note": false,
     "show_add_discount_code": true,
     "drawer_drop_shadow": true,
