@@ -446,6 +446,9 @@
             "show_sample_reviews": false,
             "reviews_selection": "all",
             "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
             "star_rating": "all",
             "show_review_media": true,
             "display_order": "media_first",
@@ -795,6 +798,59 @@
         "padding-block-start": 0,
         "padding-block-end": 25
       }
+    },
+    "1785778896bae94b2a": {
+      "type": "_blocks",
+      "blocks": {
+        "instafeed_app_block_HgeUV6": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Descubre Gradi Handmade en Instagram",
+            "title_color": "",
+            "title_size_v2": 34,
+            "alignment": "center",
+            "instafeed_margin_top": 24,
+            "instafeed_margin_bottom": 24,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "center",
+            "link_color": "#8B6A5C",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_HgeUV6"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 8,
+        "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 18,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
     }
   },
   "order": [
@@ -803,6 +859,7 @@
     "media_with_content_Ni9EjM",
     "product_list_x8XWez",
     "17839369238bd1d0e0",
-    "section_rrDLxB"
+    "section_rrDLxB",
+    "1785778896bae94b2a"
   ]
 }
